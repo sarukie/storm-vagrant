@@ -50,8 +50,8 @@ html view:
 * manual forward nimbus
 
 <pre> 
-$ 	ssh -L 8080:localhost:8080 vagrant@192.168.50.4 -p22
-<pre>
+$ 	ssh -L 8080:localhost:8080 vagrant@44.44.44.4 -p22
+</pre>
 
 Testing a topology:
 -------------------
@@ -73,7 +73,7 @@ storm-starter target deploy:
 
 <pre>
 $ mv target/storm-starter-0.0.1-SNAPSHOT-jar-with-dependencies.jar /path/to/this/project/storm-vagrant
-<pre>
+</pre>
 
 storm-starter run topology:
 
