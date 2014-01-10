@@ -44,7 +44,7 @@ html view:
 ----------
 
 <pre>
- http://192.168.50.4:8080
+ http://44.44.44.4.4:8080
 </pre>
 
 * manual forward nimbus
