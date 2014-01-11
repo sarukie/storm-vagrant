@@ -37,6 +37,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     nimbus.vm.provision "shell", path: "config-supervisord.sh", args: "drpc"
     
     nimbus.vm.provision "shell", path: "start-supervisord.sh"
+
   end
 
   config.vm.define "supervisor1" do |supervisor|
