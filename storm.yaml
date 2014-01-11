@@ -1,8 +1,19 @@
 
-storm.zookeeper.servers:
-    - "zookeeper"
+storm.zookeeper.servers: 
+    - "44.44.44.3"
 
-nimbus.host: "nimbus"
+nimbus.host: "44.44.44.4"
+
+nimbus.childopts: "-Xmx1024m -Djava.net.preferIPv4Stack=true"
+
+ui.childopts: "-Xmx512m -Djava.net.preferIPv4Stack=true"
+
+supervisor.childopts: "-Djava.net.preferIPv4Stack=true"
+
+worker.childopts: "-Xmx512m -Djava.net.preferIPv4Stack=true"
+
+storm.local.dir: "/home/storm"
+
 
 # netty transport
 storm.messaging.transport: "backtype.storm.messaging.netty.Context"
@@ -12,4 +23,4 @@ storm.messaging.netty.min_wait_ms: 1000
 storm.messaging.netty.max_wait_ms: 5000
 
 drpc.servers:
-  - "nimbus"
+    - "44.44.44.4"
