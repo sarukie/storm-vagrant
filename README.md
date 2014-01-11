@@ -91,6 +91,10 @@ storm-starter run topology:
 	$ storm jar storm-starter-0.0.1-SNAPSHOT-jar-with-dependencies.jar storm.starter.clj.word_count
 </pre>
 
+Sojoner Version:
+----------------
+
+* v0.0.1
 
 Thx for the fork goes to:
 -------------------------
